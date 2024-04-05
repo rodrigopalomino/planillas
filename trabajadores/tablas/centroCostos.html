@@ -1,3 +1,4 @@
+<!-- Incompleto -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -275,7 +276,7 @@
       <div class="col-10" style="background: #eaedee">
         <!-- ----------- -->
         <div class="d-flex justify-content-between py-2 border-bottom border-2">
-          <h2 class="text-danger">FICHA PERSONAL</h2>
+          <h2 class="text-danger">GESTION EMPRESAS</h2>
           <button
             class="btn text-white rounded-0 px-4"
             style="background: #5c1260"
@@ -295,7 +296,7 @@
               <thead>
                 <tr class="table-secondary">
                   <td></td>
-                  <td>Nombre / Apellido</td>
+                  <td>Razon Social / Nombre Comercial</td>
                 </tr>
               </thead>
               <tbody>
@@ -307,34 +308,39 @@
             </table>
 
             <!-- tabla 2 -->
-            <table class="w-100 table-bordered mt-2">
-              <thead>
-                <tr class="table-secondary">
-                  <td class="fw-bold">1</td>
-                  <td class="fw-bold">2</td>
-                  <td class="fw-bold">Tipo Empleado: 4 - OBRERO</td>
-                </tr>
-              </thead>
+            <table class="w-100 table-hover table-bordered mt-2">
               <tbody>
                 <tr>
-                  <td></td>
-                  <td></td>
-                  <td>HERNANDEZ LEDESMA, CARLO AUGUSTO</td>
+                  <td>I</td>
+                  <td>MECATRONIC</td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td></td>
-                  <td>HERNANDEZ LEDESMA, CARLO AUGUSTO</td>
+                  <td>I</td>
+                  <td>D&H MECATRONIC</td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td></td>
-                  <td>HERNANDEZ LEDESMA, CARLO AUGUSTO</td>
+                  <td>I</td>
+                  <td>Soluciones</td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td></td>
-                  <td>HERNANDEZ LEDESMA, CARLO AUGUSTO</td>
+                  <td>I</td>
+                  <td>D&H DIESEL PARTS</td>
+                </tr>
+                <tr>
+                  <td>I</td>
+                  <td>IMPORTACIONES SELECTOS</td>
+                </tr>
+                <tr>
+                  <td>I</td>
+                  <td>RECTIFICACIONES DHIGZA</td>
+                </tr>
+                <tr>
+                  <td>I</td>
+                  <td>ALFONZO DURAN TOLENTINO</td>
+                </tr>
+                <tr>
+                  <td>I</td>
+                  <td>COMMON RAIL</td>
                 </tr>
               </tbody>
             </table>
@@ -366,303 +372,77 @@
               </button>
             </div>
 
-            <!-- navegacion -->
-            <div class="mt-2">
-              <ul class="pagination">
-                <li class="page-item">
-                  <a href="" class="page-link">...::: Datos Generales :::...</a>
-                </li>
-                <li class="page-item">
-                  <a href="" class="page-link">...::: Datos Laborales :::...</a>
-                </li>
-                <li class="page-item">
-                  <a href="" class="page-link">...::: Contratos :::...</a>
-                </li>
-                <li class="page-item">
-                  <a href="" class="page-link"
-                    >...::: Lugar de Trabajo + Horarios :::...</a
-                  >
-                </li>
-              </ul>
-            </div>
-
-            <!-- formulario -->
-            <form class="container row">
-              <div class="col-8">
-                <!-- fila 1 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Usuario:</label
-                  >
-                  <div class="col-3">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                  <div class="col-auto">
-                    <button
-                      class="btn text-white rounded-0 px-4"
-                      style="background: #5c1260"
-                    >
-                      Buscar en RENIEC
-                    </button>
-                  </div>
+            <div style="margin-top: 10rem">
+              <!-- fila 1 -->
+              <div class="row mb-1">
+                <label class="col-1 col-form-label" for="">Codigo:</label>
+                <div class="col-2">
+                  <input type="text" class="form-control" />
                 </div>
-
-                <!-- fila 2 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Nombres:</label
-                  >
-                  <div class="col-5">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                  <label for="usuario" class="col-3 col-form-label"
-                    >Fecha nacimiento:</label
-                  >
-                  <div class="col-2">
-                    <select class="form-select" name="" id="">
-                      <option value="1">value1</option>
-                      <option value="2">value2</option>
-                      <option value="3">value3</option>
-                    </select>
-                  </div>
-                </div>
-
-                <!-- fila 3 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Ap. Paterno:</label
-                  >
-                  <div class="col-4">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Ap. Materno</label
-                  >
-                  <div class="col-4">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                </div>
-
-                <!-- fila 4 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Direccion:</label
-                  >
-                  <div class="col-10">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                </div>
-
-                <!-- fila 5 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Domiciliado:</label
-                  >
-                  <div class="col-3">
-                    <select class="form-select">
-                      <option value="1">DOMICILIADO</option>
-                    </select>
-                  </div>
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Estado Civil:</label
-                  >
-                  <div class="col-3">
-                    <select class="form-select">
-                      <option value="1">CASADO</option>
-                      <option value="1">SOLTERO</option>
-                      <option value="1">VIUDO</option>
-                    </select>
-                  </div>
-                </div>
-
-                <!-- fila 6 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Tipo de via:</label
-                  >
-                  <div class="col-3">
-                    <select class="form-select">
-                      <option value="1">DOMICILIADO</option>
-                    </select>
-                  </div>
-
-                  <label for="usuario" class="col-1 col-form-label"
-                    >Numero:</label
-                  >
-                  <div class="col-2">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                  <label for="usuario" class="col-1 col-form-label"
-                    >Interior:</label
-                  >
-                  <div class="col-2">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                </div>
-
-                <!-- fila 7 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label pe-0"
-                    >Nombre de via:</label
-                  >
-                  <div class="col-10">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                </div>
-
-                <!-- fila 8 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Tipo de Zona:</label
-                  >
-                  <div class="col-4">
-                    <select class="form-select">
-                      <option value="1">URB: URBANIZACION</option>
-                    </select>
-                  </div>
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Email:</label
-                  >
-                  <div class="col-4">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                </div>
-
-                <!-- fila 9 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Nmb de Zona:</label
-                  >
-                  <div class="col-10">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                </div>
-
-                <!-- fila 10 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Referenecia:</label
-                  >
-                  <div class="col-10">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                </div>
-
-                <!-- fila 11 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Pais:</label
-                  >
-                  <div class="col-4">
-                    <select class="form-select">
-                      <option value="1">PERU</option>
-                    </select>
-                  </div>
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Departamento:</label
-                  >
-                  <div class="col-4">
-                    <select class="form-select">
-                      <option value="1">DEPARTAMENTO AMAZONAS</option>
-                    </select>
-                  </div>
-                </div>
-
-                <!-- fila 12 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Provincia:</label
-                  >
-                  <div class="col-4">
-                    <select class="form-select">
-                      <option value="1"></option>
-                    </select>
-                  </div>
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Distrito:</label
-                  >
-                  <div class="col-4">
-                    <select class="form-select">
-                      <option value="1"></option>
-                    </select>
-                  </div>
-                </div>
-
-                <!-- fila 13 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Nacionalidad:</label
-                  >
-                  <div class="col-4">
-                    <select class="form-select">
-                      <option value="1">BOUVET ISLAND</option>
-                    </select>
-                  </div>
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Genero:</label
-                  >
-                  <div class="col-4">
-                    <select class="form-select">
-                      <option value="1">MASCULINO</option>
-                    </select>
-                  </div>
-                </div>
-
-                <!-- fila 14 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Celular:</label
-                  >
-                  <div class="col-4">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                  <label for="usuario" class="col-2 col-form-label">RUC</label>
-                  <div class="col-4">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                </div>
-
-                <!-- fila 15 -->
-                <div class="row mb-1">
-                  <label for="usuario" class="col-2 col-form-label"
-                    >Telefono:</label
-                  >
-                  <div class="col-3">
-                    <input type="text" class="form-control" id="usuario" />
-                  </div>
-                  <label for="usuario" class="col-3 col-form-label"
-                    >Nivel Educativo:</label
-                  >
-                  <div class="col-4">
-                    <select class="form-select">
-                      <option value="1">SIN EDUCACION FORMAL</option>
-                    </select>
-                  </div>
+                <label class="col-1 col-form-label" for="">RUC:</label>
+                <div class="col-2">
+                  <input type="text" class="form-control" />
                 </div>
               </div>
-              <div class="col-4">
-                <p class="text-center text-danger fw-bold">
-                  Tamaño de la imagen 267 x 319
-                </p>
-                <div
-                  class="border border-3 rounded-2 bg-white d-flex align-items-center"
-                  style="height: 80%"
+
+              <!-- fila 2 -->
+              <div class="row mb-1">
+                <label class="col-2 col-form-label" for="">Razon Social:</label>
+                <div class="col-6">
+                  <input type="text" class="form-control" />
+                </div>
+              </div>
+
+              <!-- fila 3 -->
+              <div class="row mb-1">
+                <label class="col-2 col-form-label" for=""
+                  >Nombre Comercial:</label
                 >
-                  <p class="h1 text-center">IMAGEN NO DISPONIBLE</p>
-                </div>
-                <p class="m-0">Rutas :</p>
-
-                <div class="row">
-                  <div class="col-8">
-                    <input type="text" class="form-control" />
-                  </div>
-                  <button
-                    class="btn text-white rounded-0 px-4 col-3"
-                    style="background: #5c1260"
-                  ></button>
+                <div class="col-6">
+                  <input type="text" class="form-control" />
                 </div>
               </div>
-            </form>
+
+              <!-- fila 4 -->
+              <div class="row mb-1">
+                <label class="col-2 col-form-label" for="">Direccion:</label>
+                <div class="col-6">
+                  <input type="text" class="form-control" />
+                </div>
+              </div>
+
+              <!-- fila 5 -->
+              <div class="row mb-1">
+                <label class="col-2 col-form-label" for=""
+                  >Representante Legal:</label
+                >
+                <div class="col-2">
+                  <input type="text" class="form-control" />
+                </div>
+                <label class="col-1 col-form-label" for="">DNI:</label>
+                <div class="col-2">
+                  <input type="text" class="form-control" />
+                </div>
+              </div>
+
+              <!-- fila 6 -->
+              <div class="row">
+                <label class="col-2 col-form-label" for=""
+                  >Region Patronal:</label
+                >
+                <div class="col-2">
+                  <input type="text" class="form-control" />
+                </div>
+                <label class="col-2 col-form-label" for=""
+                  >Regimen Laboral:</label
+                >
+                <div class="col-2">
+                  <select class="form-select">
+                    <option value="1">PRIVADO</option>
+                  </select>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
