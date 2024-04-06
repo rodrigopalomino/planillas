@@ -1,4 +1,4 @@
-<!-- Incompleto -->
+<!-- Completo -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,8 +13,9 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg" style="background: #5c1260">
-      <img src="../img/logo.png" class="mx-3" />
+      <img src="../../img/logo.png" class="mx-3" />
 
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
@@ -48,21 +49,21 @@
         <ul class="navbar-nav">
           <li class="navbar-item">
             <a href="#" class="nav-link">
-              <img src="../img/configuracion.svg" width="30px" />
+              <img src="../../img/configuracion.svg" width="30px" />
             </a>
           </li>
         </ul>
         <ul class="navbar-nav">
           <li class="navbar-item">
             <a href="#" class="nav-link">
-              <img src="../img/question-circle.svg" width="30px" />
+              <img src="../../img/question-circle.svg" width="30px" />
             </a>
           </li>
         </ul>
         <ul class="navbar-nav">
           <li class="navbar-item">
             <a href="#" class="nav-link">
-              <img src="../img/square.svg" width="30px" />
+              <img src="../../img/square.svg" width="30px" />
             </a>
           </li>
         </ul>
@@ -74,7 +75,7 @@
         class="col-2 p-0 overflow-y-auto overflow-x-hidden"
         style="background: #212120; height: 100%"
       >
-        <img src="../img/logoPanel.png" style="width: 100%" />
+        <img src="../../img/logoPanel.png" style="width: 100%" />
         <!-- Acordion Personal -->
         <div class="accordion mt-2">
           <div
@@ -91,9 +92,9 @@
                 aria-controls="acordionPersonal"
                 style="background: transparent"
               >
-                <img src="../img/person.svg" width="25px" />
+                <img src="../../img/person.svg" width="25px" />
                 <span class="fs-5 ms-2">PERSONAL</span>
-                <img src="../img/arriba.png" class="ms-auto" />
+                <img src="../../img/arriba.png" class="ms-auto" />
               </button>
             </h2>
             <div
@@ -160,9 +161,9 @@
                 aria-controls="acordionAsignacionConceptos"
                 style="background: transparent"
               >
-                <img src="../img/person.svg" width="25px" />
+                <img src="../../img/person.svg" width="25px" />
                 <span class="fs-5">Asignacion de Conceptos</span>
-                <img src="../img/arriba.png" class="ms-auto" />
+                <img src="../../img/arriba.png" class="ms-auto" />
               </button>
             </h2>
             <div
@@ -172,7 +173,17 @@
               <a
                 href="#"
                 class="d-block link-underline link-underline-opacity-0 text-white"
-                >Ficha de Personal</a
+                >Conceptos por trabajador</a
+              >
+              <a
+                href="#"
+                class="d-block link-underline link-underline-opacity-0 text-white"
+                >Conceptos por sede</a
+              >
+              <a
+                href="#"
+                class="d-block link-underline link-underline-opacity-0 text-white"
+                >Aplicar a todos</a
               >
             </div>
           </div>
@@ -194,9 +205,9 @@
                 aria-controls="acordionTablas"
                 style="background: transparent"
               >
-                <img src="../img/configuracion.svg" width="23px" />
+                <img src="../../img/configuracion.svg" width="23px" />
                 <span class="fs-5 ms-2">Tablas</span>
-                <img src="../img/arriba.png" class="ms-auto" />
+                <img src="../../img/arriba.png" class="ms-auto" />
               </button>
             </h2>
             <div
@@ -274,9 +285,9 @@
       </div>
 
       <div class="col-10" style="background: #eaedee">
-        <!-- ----------- -->
+        <!-- navbar con titulo -->
         <div class="d-flex justify-content-between py-2 border-bottom border-2">
-          <h2 class="text-danger">GESTION EMPRESAS</h2>
+          <h2 class="text-danger">GESTION SEDES</h2>
           <button
             class="btn text-white rounded-0 px-4"
             style="background: #5c1260"
@@ -285,9 +296,9 @@
           </button>
         </div>
 
-        <!-- ------------------- -->
+        <!-- Contenido -->
         <div class="row" style="height: calc(100% - 62px)">
-          <!-- ---------------------- -->
+          <!-- Tablas -->
           <div class="col-3 p-0" style="border: 2px solid rgb(209, 198, 198)">
             <div style="width: 100%; height: 50px; background: #e0e2e6"></div>
 
@@ -296,7 +307,7 @@
               <thead>
                 <tr class="table-secondary">
                   <td></td>
-                  <td>Razon Social / Nombre Comercial</td>
+                  <td>Descripcion</td>
                 </tr>
               </thead>
               <tbody>
@@ -312,36 +323,9 @@
               <tbody>
                 <tr>
                   <td>I</td>
-                  <td>MECATRONIC</td>
+                  <td>SEDE PRINCIPAL</td>
                 </tr>
-                <tr>
-                  <td>I</td>
-                  <td>D&H MECATRONIC</td>
-                </tr>
-                <tr>
-                  <td>I</td>
-                  <td>Soluciones</td>
-                </tr>
-                <tr>
-                  <td>I</td>
-                  <td>D&H DIESEL PARTS</td>
-                </tr>
-                <tr>
-                  <td>I</td>
-                  <td>IMPORTACIONES SELECTOS</td>
-                </tr>
-                <tr>
-                  <td>I</td>
-                  <td>RECTIFICACIONES DHIGZA</td>
-                </tr>
-                <tr>
-                  <td>I</td>
-                  <td>ALFONZO DURAN TOLENTINO</td>
-                </tr>
-                <tr>
-                  <td>I</td>
-                  <td>COMMON RAIL</td>
-                </tr>
+                <tr></tr>
               </tbody>
             </table>
           </div>
@@ -350,95 +334,83 @@
             <!-- botones -->
             <div class="mt-2">
               <button
-                class="p-0 px-1"
+                class="p-0 pe-2"
                 style="border: none; border: 1px solid #c6c7c7"
               >
-                <img src="../img/plus.svg" width="40px" class="m-0" />
+                <img src="../../img/plus.svg" width="40px" class="m-0" />
                 <span>Agregar</span>
               </button>
               <button
-                class="p-0 px-1"
+                class="p-0 pe-2"
                 style="border: none; border: 1px solid #c6c7c7"
               >
-                <img src="../img/plus.svg" width="40px" class="m-0" />
+                <img src="../../img/plus.svg" width="40px" class="m-0" />
                 <span>Guardar</span>
               </button>
               <button
-                class="p-0 px-1"
+                class="p-0 pe-2"
                 style="border: none; border: 1px solid #c6c7c7"
               >
-                <img src="../img/trash.svg" width="40px" class="p-1" />
+                <img src="../../img/trash.svg" width="40px" class="p-1" />
                 <span>Elimiar</span>
               </button>
             </div>
 
-            <div style="margin-top: 10rem">
+            <div class="ps-4" style="margin-top: 10rem">
               <!-- fila 1 -->
               <div class="row mb-1">
-                <label class="col-1 col-form-label" for="">Codigo:</label>
-                <div class="col-2">
-                  <input type="text" class="form-control" />
-                </div>
-                <label class="col-1 col-form-label" for="">RUC:</label>
-                <div class="col-2">
+                <label class="col-2 col-form-label" for=""
+                  >Nombre de sede:</label
+                >
+                <div class="col-5">
                   <input type="text" class="form-control" />
                 </div>
               </div>
 
               <!-- fila 2 -->
               <div class="row mb-1">
-                <label class="col-2 col-form-label" for="">Razon Social:</label>
-                <div class="col-6">
+                <label class="col-2 col-form-label" for="">Codigo:</label>
+                <div class="col-5">
                   <input type="text" class="form-control" />
                 </div>
               </div>
 
               <!-- fila 3 -->
               <div class="row mb-1">
-                <label class="col-2 col-form-label" for=""
-                  >Nombre Comercial:</label
-                >
-                <div class="col-6">
-                  <input type="text" class="form-control" />
+                <label class="col-2 col-form-label" for="">Departamento:</label>
+                <div class="col-4">
+                  <select class="form-select">
+                    <option value="1">DEPARTAMENTO AMAZONAS</option>
+                  </select>
                 </div>
               </div>
 
               <!-- fila 4 -->
               <div class="row mb-1">
-                <label class="col-2 col-form-label" for="">Direccion:</label>
-                <div class="col-6">
-                  <input type="text" class="form-control" />
+                <label class="col-2 col-form-label" for="">Provincia:</label>
+                <div class="col-4">
+                  <select class="form-select">
+                    <option value="1"></option>
+                  </select>
                 </div>
               </div>
 
               <!-- fila 5 -->
               <div class="row mb-1">
-                <label class="col-2 col-form-label" for=""
-                  >Representante Legal:</label
-                >
-                <div class="col-2">
-                  <input type="text" class="form-control" />
-                </div>
-                <label class="col-1 col-form-label" for="">DNI:</label>
-                <div class="col-2">
-                  <input type="text" class="form-control" />
+                <label class="col-2 col-form-label" for="">Distrito:</label>
+                <div class="col-4">
+                  <select class="form-select">
+                    <option value="1"></option>
+                  </select>
                 </div>
               </div>
 
               <!-- fila 6 -->
-              <div class="row">
-                <label class="col-2 col-form-label" for=""
-                  >Region Patronal:</label
-                >
-                <div class="col-2">
-                  <input type="text" class="form-control" />
-                </div>
-                <label class="col-2 col-form-label" for=""
-                  >Regimen Laboral:</label
-                >
+              <div class="row mb-1">
+                <label class="col-2 col-form-label" for="">Estado:</label>
                 <div class="col-2">
                   <select class="form-select">
-                    <option value="1">PRIVADO</option>
+                    <option value="1">Activo</option>
                   </select>
                 </div>
               </div>
