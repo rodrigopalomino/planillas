@@ -1,0 +1,9 @@
+--Tablas
+cargo.html => incompleto
+centroCostos.html => incompleto
+comisionAFPs.html => incompleto
+conceptos.html => incompleto
+declarantes.html => Completo
+departamento.html => incompleto
+regimenPensionario => incompleto
+sede.html => incompleto
