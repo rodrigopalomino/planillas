@@ -1,11 +1,8 @@
 --Tablas
-
-comisionAFPs.html => incompleto
-conceptos.html => incompleto
-
 regimenPensionario => incompleto
 
-
+comisionAFPs.html => Completo
+conceptos.html => Completo
 sede.html => Completo
 declarantes.html => Completo
 centroCostos.html => Completo
